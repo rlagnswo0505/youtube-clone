@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Mobile</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header__logo">
+            <i class="fab fa-youtube"></i>
+            <a href="">Youtube</a>
+        </div>
+        <div class="header__menu">
+            <a href=""><i class="fas fa-search"></i></a>
+            <a href=""><i class="fas fa-ellipsis-v"></i></a>
+        </div>
+    </header>
+    <!-- Video Player -->
+    <section class="player">
+        <video controls src="video/DPR LIVE - Martini Blue.mp4"></video>
+    </section>
+    <div class="info-and-upnext">
+        <!-- Video Info -->
+        <section class="info">
+            <!-- Metadata -->
+            <div class="info-metadata">
+                <ul class="info-metadata__hashtag">
+                    <li>#HoonJaeCoding</li>
+                    <li>#HoonJaeCoders</li>
+                    <li>#HoonJae</li>
+                </ul>
+                <div class="info-metadata__titleAndButton">
+                    <h1 class="info__title clamp">Clone Coding: Youtube Mobile Website 유튜브 사이트 따라 만들기 HTML+CSS 연습편, 웹 포트폴리오 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript</h1>
+                    <button class="info__title-moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <div class="info-metadata__views">
+                    1M views 1 month ago
+                </div>
+            </div>
+            <!-- Actions -->
+            <ul class="info__actions">
+                <li>
+                    <button><i class="active fas fa-thumbs-up"></i><span>1k</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-share"></i><span>share</span></button>
+                </li>
+                <li>
+                    <button><i class="fas fa-plus"></i><span>save</span></button>
+                </li>
+                <li>
+                    <button><i class="fab fa-font-awesome-flag"></i><span>import</span></button>
+                </li>
+            </ul>
+            <!-- Channel Description-->
+            <div class="channel">
+                <div class="channel__metadata">
+                    <img src="images/logo.png" alt="">
+                    <div class="channel__metadata-info">
+                        <span class="name">HoonJae</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="channel__subscribe">subscribe</button>
+            </div>
+        </section>
+        <!-- Up Next -->
+        <section class="upnext">
+            <span class="upnext__title">Up next</span>
+            <ul>
+                <li class="upnext__item">
+                    <div class="img">
+                        <img src="images/1.webp" alt="">
+                    </div>
+                    <div class="upnext__item-info">
+                        <span class="title">
+                            새벽에 산책 가자는 강아지 참교육 했습니다.
+                        </span>
+                        <span class="name">
+                            아리둥절 Ari the Corgi
+                        </span>
+                        <span class="views">
+                            6.8K views
+                        </span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                <li class="upnext__item">
+                    <div class="img">
+                        <img src="images/2.webp" alt="">
+                    </div>
+                    <div class="upnext__item-info">
+                        <span class="title">
+                            목욕하는데 이렇게 귀엽기 있기 없기?
+                        </span>
+                        <span class="name">
+                            MochaMilk
+                        </span>
+                        <span class="views">
+                            5.4K views
+                        </span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+                <li class="upnext__item">
+                    <div class="img">
+                        <img src="images/3.webp" alt="">
+                    </div>
+                    <div class="upnext__item-info">
+                        <span class="title">
+                            고양이는 집에서 뭐할까? 폭풍 우다다를 뜁니다
+                        </span>
+                        <span class="name">
+                            그루밍데이 고양이cat vlog
+                        </span>
+                        <span class="views">
+                            7.0K views
+                        </span>
+                    </div>
+                    <button class="moreBtn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
